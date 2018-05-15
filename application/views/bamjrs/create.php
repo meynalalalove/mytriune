@@ -1,3 +1,4 @@
+<center>
 <div class="requestForm">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/thirdparty/easyui/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/thirdparty/easyui/themes/icon.css">
@@ -5,7 +6,7 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/stylesheets/triune.css" />
 
 
-    <div style="margin:5px 0;"></div>
+    <div style="margin:10% 0;"></div>
     <div class="easyui-panel" title="Create Request" style="width:100%;max-width:50%;padding:5px 5px;"> 
         <form id="ff" class="easyui-form" method="post" data-options="novalidate:true">
             <div style="margin-bottom:5px">

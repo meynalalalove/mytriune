@@ -1,17 +1,25 @@
+<style>
+    body { 
+    background: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg") ; 
+    background-size: cover;
+    margin-top: 9%
+}
+</style>
+<body>
 <div>
-	<div>
-		<div id="navbar" class="navbar navbar-default">
-		</div>
+    <div>
+        <div id="navbar" class="navbar navbar-default">
+        </div>
 
-		<div class="page-content">
-    		<div class="row">
-				<div class="col-lg-6">
-				</div>
+        <div class="page-content">
+            <div class="row">
+                <div class="col-lg-4">
+                </div>
 
-				<div class="col-lg-6">
-					<!-- PAGE CONTENT BEGINS -->
-                    <div class="col-lg-6 col-lg-offset-6">
-                        <h2>Please login</h2>
+                <div class="col-lg-4">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div >
+                        <h2 class="text-center" style="color: black">Please login</h2>
                         <?php $fattr = array('class' => 'form-signin');
                             echo form_open(site_url().'auth/login/', $fattr); ?>
                         <div class="form-group">
@@ -38,7 +46,8 @@
                         <p>Click <a href="<?php echo site_url();?>auth/forgot">here</a> if you forgot your password.</p>
                     </div>
                     <!-- PAGE CONTENT ENDS -->
-
+<div class="col-lg-4">
+                </div>
                     <div >
                         <?php
                             if ($this->session->flashdata('msg')){ //change!
@@ -55,7 +64,8 @@
             
 
 
-		</div><!-- /.page-content -->
+        </div><!-- /.page-content -->
 
-	</div>
+    </div>
 </div><!-- /.main-content -->
+</body>
